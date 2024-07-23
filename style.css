@@ -26,3 +26,22 @@ nav a{
     align-items: center;
     justify-content: space-evenly;
 }
+.home{
+    display: flex;
+    justify-content:space-evenly; 
+}
+.home div{
+    padding-top: 100px;
+}
+.home img{
+    width: 400px;
+}
+.home h2{
+    font-size: 40px;
+}
+.home input{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
