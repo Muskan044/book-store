@@ -1,22 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
 }
-.logo img{
+
+.logo img {
     width: 300px;
 }
-nav{
+
+/* navbar */
+nav {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
+    position: sticky;
+    top: 0;
 }
-nav a{
+
+nav a {
     color: rgb(20, 70, 161);
     text-decoration: none;
     background-color: rgb(241, 239, 239);
@@ -26,22 +33,39 @@ nav a{
     align-items: center;
     justify-content: space-evenly;
 }
-.home{
+
+/* home */
+.home {
     display: flex;
-    justify-content:space-evenly; 
+    justify-content: space-evenly;
 }
-.home div{
+
+.home div {
     padding-top: 100px;
 }
-.home img{
+
+.home img {
     width: 400px;
 }
-.home h2{
+
+.home h2 {
     font-size: 40px;
 }
-.home input{
+
+.home input {
     margin-top: 20px;
     border-radius: 10px;
     height: 40px;
     width: 100%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.text h2{
+    font-size: 50px;
 }
