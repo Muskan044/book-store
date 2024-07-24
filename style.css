@@ -92,7 +92,6 @@ nav a {
     padding-bottom: 20px;
 }
 
-
 .Books {
     height: 350px;
     border: 2px solid black;
@@ -128,4 +127,34 @@ nav a {
     position: relative;
     top: -120px; 
     border: none;
+}
+/* fiction */
+.fiction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fiction h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+/* books */
+.books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.books h2{
+    font-size: 50px;
+    font-weight: 800;
 }
